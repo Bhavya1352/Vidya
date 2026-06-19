@@ -5,7 +5,7 @@ import { testimonials } from '../../data/testimonials';
 import Marquee from '../../components/Marquee/Marquee';
 import { ScrollReelTestimonials } from '../../components/ui/scroll-reel-testimonials';
 import { CallToAction } from '../../components/ui/CallToAction';
-import { Briefcase, MapPin, Sparkles, GraduationCap } from 'lucide-react';
+import { Sparkles } from 'lucide-react';
 
 export default function HomePage() {
   const [heroRef, heroVisible] = useIntersectionObserver(0.1);
