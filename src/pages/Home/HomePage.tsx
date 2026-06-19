@@ -62,6 +62,7 @@ export default function HomePage() {
             <div className="hero-bento-grid">
               {/* Card 1: Profile Card */}
               <div className="bento-card profile-card bento-span-2">
+                <span className="bento-card-index">I</span>
                 <div className="bento-profile-img-wrapper">
                   <img
                     src="https://thesocialvidya.com/wp-content/uploads/2024/11/HOME-COMP.webp"
@@ -71,54 +72,51 @@ export default function HomePage() {
                   />
                 </div>
                 <div className="bento-profile-info">
-                  <div className="bento-profile-tag">
-                    <Sparkles className="w-3.5 h-3.5 text-[var(--accent-gold)]" /> Creative Specialist
-                  </div>
+                  <div className="bento-card-label">01 / BRAND IDENTITY</div>
                   <div className="bento-profile-title">Vidya Vasavan</div>
                   <div className="bento-profile-subtitle">
                     Bringing ideas to life through strategic digital marketing and brand design.
                   </div>
+                  <div className="bento-profile-tag">Creative Specialist</div>
                 </div>
               </div>
 
               {/* Card 2: Professional Status (Current Role) */}
               <div className="bento-card">
+                <span className="bento-card-index">II</span>
                 <div>
-                  <div className="bento-card-label">
-                    <Briefcase className="w-3.5 h-3.5 text-[var(--accent-gold)]" /> Current Role
-                  </div>
+                  <div className="bento-card-label">02 / PROFESSIONAL STATUS</div>
                   <div className="bento-card-title">Digital Marketing Executive</div>
                   <div className="bento-card-subtitle">Placeme Consultants</div>
                 </div>
                 <div className="bento-card-footer">
-                  <span className="pulsing-dot" /> Feb 2024 – Present
+                  <span className="bento-status-tag">ACTIVE</span>
+                  <span className="bento-date">Feb 2024 – Present</span>
                 </div>
               </div>
 
               {/* Card 3: Location & Education */}
               <div className="bento-card">
+                <span className="bento-card-index">III</span>
                 <div>
-                  <div className="bento-card-label">
-                    <MapPin className="w-3.5 h-3.5 text-[var(--accent-gold)]" /> Location & Education
-                  </div>
-                  <div className="bento-card-title">New Zealand</div>
+                  <div className="bento-card-label">03 / GEOGRAPHY & EDUCATION</div>
+                  <div className="bento-card-title">Auckland, New Zealand</div>
                   <div className="bento-card-subtitle">Master of Digital Business</div>
                 </div>
                 <div className="bento-card-footer">
-                  <GraduationCap className="w-3.5 h-3.5 text-[var(--text-muted)]" /> Auckland / Hybrid
+                  <span className="bento-status-tag-secondary">HYBRID BASE</span>
                 </div>
               </div>
 
               {/* Card 4: Experience & Specialties Badge Card */}
               <div className="bento-card bento-span-2">
+                <span className="bento-card-index">IV</span>
                 <div>
-                  <div className="bento-card-label">
-                    <Sparkles className="w-3.5 h-3.5 text-[var(--accent-gold)]" /> Track Record
-                  </div>
+                  <div className="bento-card-label">04 / CORE PRACTICE</div>
                   <div className="bento-card-title">7+ Years of Industry Experience</div>
                 </div>
                 <div className="bento-badges-container">
-                  <span className="bento-badge">Graphic Designer</span>
+                  <span className="bento-badge">Graphic Design</span>
                   <span className="bento-badge">Marketing Specialist</span>
                   <span className="bento-badge">Brand Identity</span>
                   <span className="bento-badge">Campaign Marketing</span>
